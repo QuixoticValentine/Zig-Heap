@@ -10,3 +10,6 @@ heapInsert appends an item to the back of the heap, and then rebuilds the heap. 
 heapGetRoot non-destructively returns the root, and only requires the arraylist as an argument.
 
 heapPopRoot destructively returnd the root, and requires the a pointer to the arraylist, and the max/min boolean. 
+
+-Todo:
+  Get heapPopRoot to use proper sifting.
